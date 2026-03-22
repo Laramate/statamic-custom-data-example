@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f2384b8cc4ef869dbed11216a383026e",
+    "content-hash": "f824e9f663f3f2d695e01b64f7cc543c",
     "packages": [
         {
             "name": "ajthinking/archetype",
@@ -1687,6 +1687,62 @@
                 "source": "https://github.com/laragraph/utils"
             },
             "time": "2026-03-04T07:16:49+00:00"
+        },
+        {
+            "name": "laramate/support",
+            "version": "3.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Laramate/support.git",
+                "reference": "2fa2837e4e7c92a317eb534b60b42837727fb498"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Laramate/support/zipball/2fa2837e4e7c92a317eb534b60b42837727fb498",
+                "reference": "2fa2837e4e7c92a317eb534b60b42837727fb498",
+                "shasum": ""
+            },
+            "require": {
+                "laravel/framework": "^8.0|^9.0|^10.0|^11.0|^12.0|^13.0",
+                "php": "^8.0"
+            },
+            "require-dev": {
+                "fakerphp/faker": "^1.23",
+                "laravel/pint": "^1.13",
+                "mockery/mockery": "^1.6",
+                "nunomaduro/collision": "^8.1",
+                "orchestra/testbench": "^9.0",
+                "phpunit/phpunit": "^11.0"
+            },
+            "type": "package",
+            "autoload": {
+                "psr-4": {
+                    "Laramate\\Support\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Laramate",
+                    "email": "coding@laramate.de",
+                    "homepage": "https://www.laramate.de/",
+                    "role": "Team"
+                },
+                {
+                    "name": "Tobi Kivelip",
+                    "email": "tkivelip@gmail.com",
+                    "homepage": "https://github.com/tkivelip",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Support Package for Laravel",
+            "support": {
+                "source": "https://github.com/Laramate/support/tree/3.3"
+            },
+            "time": "2026-03-09T08:36:10+00:00"
         },
         {
             "name": "laravel/framework",
@@ -12096,7 +12152,7 @@
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
-        "php": "^8.3"
+        "php": "^8.4"
     },
     "platform-dev": {},
     "plugin-api-version": "2.6.0"
