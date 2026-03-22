@@ -1,8 +1,22 @@
 ---
-title: Home
 id: home
-template: home
 blueprint: pages
+title: Home
+template: home
+author: 75b38628-4ccc-44c9-948b-9e5acec1ea9c
+sections:
+  -
+    id: bmzz-qcA1SuiPgQ2xfR0D
+    type: quick_and_dirty
+    enabled: false
+    product_category: electronics
+  -
+    id: B3hFFOzJngcBVqEA9HLwT
+    type: recommended_way
+    enabled: true
+    product_category: furniture
+updated_by: 75b38628-4ccc-44c9-948b-9e5acec1ea9c
+updated_at: 1774114998
 ---
 ## Welcome to your brand new Statamic site!
 
