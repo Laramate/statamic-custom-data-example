@@ -1,0 +1,52 @@
+title: 'Page Builder'
+fields:
+  -
+    handle: sections
+    field:
+      type: replicator
+      display: Sections
+      sets:
+        custom_data:
+          display: 'Custom Data'
+          icon: cog-solid
+          sets:
+            recommended_way:
+              display: 'Recommended Way'
+              fields:
+                -
+                  handle: notice
+                  field:
+                    html: 'This is our recommended approach. We use a View-Component to work with this section`s data. Combined with our Action-Pattern, the implementation is separated by responsibility.'
+                    type: html
+                    display: Notice
+                    hide_display: true
+                -
+                  handle: product_category
+                  field:
+                    dictionary: product_categories
+                    placeholder: 'Filter a product category'
+                    clearable: true
+                    type: dictionary
+                    display: 'Product Categories'
+                    max_items: 1
+            quick_and_dirty:
+              display: 'Quick And Dirty'
+              instructions: 'The fasted way to access other data in a Statamic Section.'
+              icon: labs-idea-experimental-flask
+              fields:
+                -
+                  handle: info
+                  field:
+                    html: "We don't recommend this approach since logic is placed in the template."
+                    type: html
+                    display: Notice
+                    hide_display: true
+                -
+                  handle: product_category
+                  field:
+                    dictionary: product_categories
+                    placeholder: 'Filter a product category'
+                    clearable: true
+                    type: dictionary
+                    display: 'Product Categories'
+                    max_items: 1
